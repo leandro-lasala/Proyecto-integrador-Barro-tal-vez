@@ -500,10 +500,19 @@ height: 30px;
         padding: 20px;
         gap: 20px;
         border-radius: 0px 0px 15px 15px;
+        display: none;
     }
     
     .menu-img{
         display: initial;
+    }
+
+    .menu-label{
+        order: 2;
+    }
+
+    #menu_toggle-label:checked ~ .navbar_links{
+        display: flex;
     }
 
     
